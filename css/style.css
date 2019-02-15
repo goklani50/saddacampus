@@ -1,0 +1,107 @@
+@import "utf-8"; 
+	/*gh*/
+body{
+	margin: 0px;
+}
+	.content{
+		width: 100%;
+		height:inherit;
+	}
+
+	.write{
+		width:60%;
+		float:left;
+		height: auto;
+	
+	}
+	.write li {
+			display: inline-block;
+		}
+	
+	.b1 {
+		font-size: 30px;
+		padding-left: 40px;
+	}
+	
+	.blueText{
+	color:#0578EB;
+}
+	.write h1{
+		font-family: "Lato";
+		font-size: 52;
+		float:left;
+		position: relative;
+		margin: 0px 15px;
+	
+	}
+.write p{
+		font-family: "Lato";
+		color: #707070;
+		font-size: 25px;;
+		float:left;
+		position: relative;
+		margin: 0px 400px 20px 18px;
+	
+	}
+	.imager8{
+		float:right;
+		width: 40%;
+	}
+	img{
+		width: 100%;
+		height: auto;
+	}
+	.border-only{
+		position: relative;
+		font-size:20px; 
+   		color: transparent;
+   		-webkit-text-stroke-width: 1px;
+   	    -webkit-text-stroke-color: black;
+		margin: -10px 15px;
+ 	}
+
+
+
+.webflow-style-input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  float: left;
+  margin: 70px 180px 0px 60px;
+  border-top: none;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  border-bottom: 1px solid #FFFFFF;
+  box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} 
+
+
+.webflow-style-input input {
+  color: #000;
+  font-size: 25px;;
+  line-height: 40px;	
+  border: none;
+	margin-bottom: auto;
+}
+.webflow-style-input input {
+ outline:none;
+}
+  .webflow-style-input input::-webkit-input-placeholder {
+	vertical-align: middle;
+	  font-size:25px;
+    color: rgb(0,0,0,0.23);
+  }
+.webflow-style-input button {
+  color:  rgb(0,0,0,0.23);
+  font-size: 25px;
+  line-height: 25px;
+  vertical-align: middle;
+  background: transparent;
+  border: none;
+}
+.webflow-style-input button:focus {
+  outline: none;
+}
+  .webflow-style-input button:hover {
+    color: #000;
+  }
