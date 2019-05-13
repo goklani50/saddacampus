@@ -8,7 +8,7 @@
 	console.log(pId);
 	var playListId=pId;
 	var play='playlistId='+playListId;
-	var key='key=AIzaSyDRhgAYgX00stG8z74M-gz5n4s_gIuwcy4';
+	var key='key=[KEY]';
 	var nextPage='';
 	var prevPage='';
 	var vId=[];
